@@ -11,7 +11,7 @@ import android.util.Log;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
     public static String DATABASE_NAME="UserDB";
-    public static int DATABASE_VERSION = 11;
+    public static int DATABASE_VERSION = 107;
     SQLiteDatabase db;
 
     public DatabaseHelper(Context context){
@@ -59,7 +59,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         return db.update(tableName, contentValues, whereCondition,null)>0;
     }
 
-    public boolean delete(String tableName, String whereCondition) { Log.d("DATABASE OPERATIONS", "DELETE DONE");
+    public boolean delete(String tableName, String whereCondition) {
+        Log.d("DATABASE OPERATIONS", "DELETE DONE");
         return db.delete(tableName, whereCondition, null)>0;
     }
 

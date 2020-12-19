@@ -2,99 +2,27 @@
   "users":[
     {
       "id": 1,
-      "name": "Leanne Graham",
-      "email": "Sincere@april.biz",
-      "city": "Gwenborough",
-      "phone": "1-770-736-8031 x56442",
-      "compamny" : "Amazon"
-    },
-    {
-      "id": 1,
-      "name": "Leanne Graham",
-      "email": "Sincere@april.biz",
-      "city": "Gwenborough",
-      "phone": "1-770-736-8031 x56442",
-      "compamny" : "Amazon"
-    },
-    {
-      "id": 1,
-      "name": "Leanne Graham",
-      "email": "Sincere@april.biz",
-      "city": "Gwenborough",
-      "phone": "1-770-736-8031 x56442",
-      "compamny" : "Amazon"
+      "name": "Jeff Bezos",
+      "email": "jeffBezos@amazon.com",
+      "city": "US",
+      "phone": "1111111",
+      "company" : "Amazon"
     },
     {
       "id": 2,
-      "name": "Leanne Graham",
-      "email": "Sincere@april.biz",
-      "city": "Gwenborough",
-      "phone": "1-770-736-8031 x56442",
-      "compamny" : "Amazon"
+      "name": "Bill Gates",
+      "email": "billGates@microsoft.com",
+      "city": "US",
+      "phone": "22222222",
+      "company" : "Microsoft"
     },
     {
       "id": 3,
-      "name": "Leanne Graham",
-      "email": "Sincere@april.biz",
-      "city": "Gwenborough",
-      "phone": "1-770-736-8031 x56442",
-      "compamny" : "Amazon"
-    },
-    {
-      "id": 4,
-      "name": "Leanne Graham",
-      "email": "Sincere@april.biz",
-      "city": "Gwenborough",
-      "phone": "1-770-736-8031 x56442",
-      "compamny" : "Amazon"
-    },
-    {
-      "id": 5,
-      "name": "Leanne Graham",
-      "email": "Sincere@april.biz",
-      "city": "Gwenborough",
-      "phone": "1-770-736-8031 x56442",
-      "compamny" : "Amazon"
-    },
-    {
-      "id": 6,
-      "name": "Leanne Graham",
-      "email": "Sincere@april.biz",
-      "city": "Gwenborough",
-      "phone": "1-770-736-8031 x56442",
-      "compamny" : "Amazon"
-    },
-    {
-      "id": 7,
-      "name": "Leanne Graham",
-      "email": "Sincere@april.biz",
-      "city": "Gwenborough",
-      "phone": "1-770-736-8031 x56442",
-      "compamny" : "Amazon"
-    },
-    {
-      "id": 8,
-      "name": "Leanne Graham",
-      "email": "Sincere@april.biz",
-      "city": "Gwenborough",
-      "phone": "1-770-736-8031 x56442",
-      "compamny" : "Amazon"
-    },
-    {
-      "id": 9,
-      "name": "Leanne Graham",
-      "email": "Sincere@april.biz",
-      "city": "Gwenborough",
-      "phone": "1-770-736-8031 x56442",
-      "compamny" : "Amazon"
-    },
-    {
-      "id": 10,
-      "name": "Leanne Graham",
-      "email": "Sincere@april.biz",
-      "city": "Gwenborough",
-      "phone": "1-770-736-8031 x56442",
-      "compamny" : "Amazon"
+      "name": "Sundar Pichai",
+      "email": "sundarPichai@google.com",
+      "city": "India",
+      "phone": "33333333333",
+      "company" : "Google"
     }
   ]
 }

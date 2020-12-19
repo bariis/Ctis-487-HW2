@@ -36,7 +36,7 @@ public class UserDB {
             String phone= cursor.getString(4);
             String company= cursor.getString(5);
 
-            anItem = new User(id,name, email, city, phone, company);
+            anItem = new User(id,name, email, phone, company, city);
             data.add(anItem);
 
         }
@@ -78,14 +78,14 @@ public class UserDB {
         return res;
     }
 
-    public static boolean update(DatabaseHelper dbHelper, String id, String email,String name) {
+    public static boolean update(DatabaseHelper dbHelper, String id, String email,String phone) {
         //ContentValues  allows to define key value pairs.
         //The key represents the table column identifier and the value represents the content for the table record in this column.
         //ContentVales can be used for insert and update operations over table
 
         ContentValues contentValues = new ContentValues( );
         contentValues.put(FIELD_EMAIL, email);
-        contentValues.put(FIELD_NAME, name);
+        contentValues.put(FIELD_PHONE, phone);
 
         String where = FIELD_ID +" = "+id;
         boolean res = dbHelper.update(TABLE_NAME,contentValues,where );

@@ -8,9 +8,10 @@ public class User implements Parcelable {
     private int id;
     private String name;
     private String email;
+    private String city;
     private String phone;
     private String company;
-    private String city;
+
 
     public User(int id, String name, String email, String phone, String company, String city) {
         this.id = id;
@@ -86,6 +87,18 @@ public class User implements Parcelable {
         dest.writeString(phone);
         dest.writeString(company);
         dest.writeString(city);
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", phone='" + phone + '\'' +
+                ", company='" + company + '\'' +
+                ", city='" + city + '\'' +
+                '}';
     }
 
     @Override
